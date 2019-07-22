@@ -2,3 +2,13 @@
     padding: 0px;
     margin: 0px;
 }
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: lora;
+    src: url(../fonts/Lora-Regular.ttf);
+}

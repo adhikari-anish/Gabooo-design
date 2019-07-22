@@ -15,22 +15,22 @@
             <div class="top-navbar">
                 <div class="top-navbar-wrapper clearfix">
                     <div class="top-navbar-wrapper-left">
-                        <ul>
-                            <li><a href="#">gabooo@gmail.com</a></li>
-                            <li><a href="#">+12345-678-90</a></li>
+                        <ul class="clearfix">
+                            <li><a href="mailto:graphberry@gmail.com" title="Gaboo email">gabooo@gmail.com</a></li>
+                            <li><a href="tel:+12345-678-90" title="Telphone">+12345-678-90</a></li>
                         </ul>
                     </div>
                     <div class="top-navbar-wrapper-right">
                         <div class="top-navbar-wrapper-right-icons">
-                            <a href="#"><span class="fa fa-facebook"></span></a>
-                            <a href="#"><span class="fa fa-twitter"></span></a>
-                            <a href="#"><span class="fa fa-google-plus"></span></a>
+                            <a href="#" title="Facebook"><span class="fa fa-facebook"></span></a>
+                            <a href="#" title="Twitter"><span class="fa fa-twitter"></span></a>
+                            <a href="#" title="Google+"><span class="fa fa-google-plus"></span></a>
                         </div>
                         <div class="top-navbar-wrapper-right-list">
-                            <div class="acc"><img src="images/account.png" alt=""></div>
-                            <ul class="">
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">Register</a></li>
+                            <button class="acc"><img src="images/account.png" alt="Account"></button>
+                            <ul class="acc-ul">
+                                <li><a href="#" title="Login">Login</a></li>
+                                <li><a href="#" title="Sign up">Register</a></li>
                             </ul>
                         </div>
                     </div>
@@ -40,21 +40,21 @@
             <div class="navbar">
                 <div class="navbar-wrapper clearfix">
                     <div class="categories clearfix">
-                        <div class="navbar-burger" onclick="toggleFun()"><img src="images/burger-nav.png" alt=""></div>
-                        <ul class="categories-ul open">
-                            <li><a href="#">Woman</a></li>
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Children</a></li>
-                            <li><a href="#">Collection</a></li>
-                            <li id="logo"><a href="#"><img src="images/logo.png" alt=""></a></li>
-                            <li><a href="#">Spring</a></li>
-                            <li><a href="#">Summer</a></li>
-                            <li><a href="#">Fall</a></li>
-                            <li><a href="#">Winter</a></li>
+                        <div class="navbar-burger"><img src="images/burger-nav.png" alt="nav bar"></div>
+                        <ul class="categories-ul clearfix">
+                            <li><a href="# " title="Woman Items" class="category-active">Woman</a></li>
+                            <li><a href="#" title="Men Items">Men</a></li>
+                            <li><a href="#" title="Children Items">Children</a></li>
+                            <li><a href="#" title="Collection section">Collection</a></li>
+                            <li id="logo"><a href="#" title="Gaboo-home page"><img src="images/logo.png" alt="Gaboo Logo"></a></li>
+                            <li><a href="#" title="Spring wears">Spring</a></li>
+                            <li><a href="#" title="Summer wears">Summer</a></li>
+                            <li><a href="#" title="Fall wears">Fall</a></li>
+                            <li><a href="#" title="Winter wears">Winter</a></li>
                         </ul>
                     </div>
                     <div id="logo-small">
-                        <a href="#"><img src="images/logo-small.png" alt=""></a>
+                        <a href="#" title="Gaboo-home page"><img src="images/logo-small.png" alt="Gaboo Logo"></a>
                     </div>
 
                 </div>
@@ -68,53 +68,56 @@
                             <button>SHOP NOW</button>
                         </div>
                         <div class="header-main-image">
-                            <img src="images/header-main-image.jpg" alt="">
+                            <img src="images/header-main-image.jpg" alt="fashion slider">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="bottom-navbar">
                 <div class = "bottom-navbar-wrapper clearfix">
-                    <div class="lang-dollar">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <span id="flag"><img src="images/lang.png" alt=""></span>
-                                    <span id="choose-ln">EN</span>
-                                    <i class="fa fa-caret-down"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span id="currency">USD</span>
-                                    <i class="fa fa-caret-down"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="bottom-navbar-wrapper-right">
-                        <div class="shopping-cart">
-                            <ul class="clearfix">
-                                <li class="unhide"><a href="#"><img src="images/cart.png" alt=""></a></li>
-                                <li class="hide"><a href="#">Shopping Cart</a></li>
-                                <li class="hide"><a href="#">WishList(<span>7</span>)</a></li>
-                                <li class="unhide"><a href="#"><img src="images/wishlist.png" alt=""></a></li>
-                                <li class="hide"><a href="#">Checkout</a></li>
-                                <li class="hide"><a href="#">My Account</a></li>
+                    <ul class="lang-curr">
+                        <li>
+                            <ul>
+                                <li><img src="images/lang.png"><span>EN</span><i class="fa fa-caret-down"></i></li>
+                                <ul class="lang-curr-dropdown">
+                                    <li><a href="#"><img src="images/lang.png"><span>EN</span><i class="fa fa-caret-down"></i></a></li>
+                                    <li><a href="#"><img src="images/lang.png"><span>EN</span><i class="fa fa-caret-down"></i></a></li>
+                                </ul>
                             </ul>
-                        </div>
-                        <div class="search-item">
-                            <form class="clearfix">
-                                <input type="text" placeholder="Search">
-                                <button type="submit"><i class="fa fa-search" style="font-size: 16px;"></i></button>
-                            </form>
-                            <div class="amount">
-                                <a href="#">
-                                    <span class="cart1"><img src="images/cart1.png" alt=""></span>
-                                    <span class="total-amount">$79.00</span>
-                                </a>
-                            </div>
-                        </div>
+                        </li>
+
+                        <li>
+                            <ul>
+                                <li><span>USD</span><i class="fa fa-caret-down"></i></li>
+                                <ul class="lang-curr-dropdown">
+                                    <li><a href="#"><span>USD</span><i class="fa fa-caret-down"></i></a></li>
+                                    <li><a href="#"><span>USD</span><i class="fa fa-caret-down"></i></a></li>
+                                </ul>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="bottom-navbar-right">
+                    <ul class="shop-cart-text">
+                        
+                        <li><a href="#">Shopping Cart</a></li>
+                        <li><a href="#">Wishlist(<span>7</span>)</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">My Account</a></li>
+                    </ul>
+
+                    <ul class="shop-cart-icons">
+                        <li><a class="fa fa-shopping-cart" href="#"></a></li>
+                        <li><a class="fa fa-heart" href="#"></a></li>
+                        <li><a class="fa fa-money" href="#"></a></li>
+                    </ul>
+
+                    <ul class="search-dollar clearfix">
+                        <li>
+                            <input type="text" placeholder="Search"><span class="fa fa-search"></span>
+                        </li>
+                        <li><a href="#"><span class="fa fa-shopping-cart"></span><span class="amount">$79.00</span></a></li>
+                    </ul>
                     </div>
                 </div>
             </div>
@@ -125,9 +128,8 @@
                 <div class="popular-now-wrapper">
                     <div class="item-block-title">Popular Now</div>
                     <div class="popular-now-nav clearfix">
-                        <ul>
-                            <!-- <li>Menu</li> -->
-                            <li><a href="#">Trending</a></li>
+                        <ul class="clearfix">
+                            <li><a href="#" class="active">Trending</a></li>
                             <li><a href="#">Bestsellers</a></li>
                             <li><a href="#">New</a></li>
                             <li><a href="#">On Sale</a></li>
@@ -137,7 +139,7 @@
                         <div class="item1">
                             <div class="item-img">
                                 <a href="#">
-                                    <img src="images/item1.jpg" alt="">
+                                    <img src="images/item1.jpg" alt="Paris Jacket">
                                 </a>
                             </div>
                             <div class="item-desc">
@@ -150,7 +152,7 @@
                         <div class="item1">
                                 <div class="item-img">
                                     <a href="#">
-                                        <img src="images/item1.jpg" alt="">
+                                        <img src="images/item2.jpg" alt="France Jeans">
                                     </a>
                                 </div>
                                 <div class="item-desc">
@@ -163,7 +165,7 @@
                         <div class="item1">
                                 <div class="item-img">
                                     <a href="#">
-                                        <img src="images/item1.jpg" alt="">
+                                        <img src="images/item3.jpg" alt="American Eagle">
                                     </a>
                                 </div>
                                 <div class="item-desc">
@@ -176,7 +178,7 @@
                         <div class="item1">
                                 <div class="item-img">
                                     <a href="#">
-                                        <img src="images/item1.jpg" alt="">
+                                        <img src="images/item4.jpg" alt="Vans">
                                     </a>
                                 </div>
                                 <div class="item-desc">
@@ -201,11 +203,11 @@
                             <div class="item1">
                                 <div class="item-img">
                                     <a href="#">
-                                        <img src="images/item1.jpg" alt="">
+                                        <img src="images/winter-item1.jpg" alt="Winter fashion">
                                     </a>
                                 </div>
                                 <div class="item-desc">
-                                    <ul>
+                                    <ul class="clearfix">
                                         <li><a href = "#">PARIS JACKET</a></li>
                                         <li><a href = "#">$89,99</a></li>
                                     </ul>
@@ -214,11 +216,11 @@
                             <div class="item1">
                                     <div class="item-img">
                                         <a href="#">
-                                            <img src="images/item1.jpg" alt="">
+                                            <img src="images/winter-item2.jpg" alt="Winter fashion">
                                         </a>
                                     </div>
                                     <div class="item-desc">
-                                        <ul>
+                                        <ul class="clearfix">
                                             <li><a href = "#">PARIS JACKET</a></li>
                                             <li><a href = "#">$89,99</a></li>
                                         </ul>
@@ -227,11 +229,11 @@
                             <div class="item1">
                                     <div class="item-img">
                                         <a href="#">
-                                            <img src="images/item1.jpg" alt="">
+                                            <img src="images/winter-item3.jpg" alt="Winter Shirts">
                                         </a>
                                     </div>
                                     <div class="item-desc">
-                                        <ul>
+                                        <ul class="clearfix">
                                             <li><a href = "#">PARIS JACKET</a></li>
                                             <li><a href = "#">$89,99</a></li>
                                         </ul>
@@ -240,11 +242,11 @@
                             <div class="item1">
                                     <div class="item-img">
                                         <a href="#">
-                                            <img src="images/item1.jpg" alt="">
+                                            <img src="images/winter-item4.jpg" alt="Winter fashion">
                                         </a>
                                     </div>
                                     <div class="item-desc">
-                                        <ul>
+                                        <ul class="clearfix">
                                             <li><a href = "#">PARIS JACKET</a></li>
                                             <li><a href = "#">$89,99</a></li>
                                         </ul>
@@ -290,7 +292,7 @@
                             <div class="item1">
                                 <div class="item-img">
                                     <a href="#">
-                                        <img src="images/item1.jpg" alt="">
+                                        <img src="images/item7.jpg" alt="jeans pant">
                                     </a>
                                 </div>
                                 <div class="item-desc">
@@ -303,7 +305,7 @@
                             <div class="item1">
                                     <div class="item-img">
                                         <a href="#">
-                                            <img src="images/item1.jpg" alt="">
+                                            <img src="images/item8.jpg" alt="formal wear">
                                         </a>
                                     </div>
                                     <div class="item-desc">
@@ -316,7 +318,20 @@
                             <div class="item1">
                                     <div class="item-img">
                                         <a href="#">
-                                            <img src="images/item1.jpg" alt="">
+                                            <img src="images/item9.jpg" alt="cotton tshirts">
+                                        </a>
+                                    </div>
+                                    <div class="item-desc">
+                                        <ul>
+                                            <li><a href = "#">PARIS JACKET</a></li>
+                                            <li><a href = "#">$89,99</a></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="item1 fourth-item">
+                                    <div class="item-img">
+                                        <a href="#">
+                                            <img src="images/item4.jpg" alt="sunglass and summer wear">
                                         </a>
                                     </div>
                                     <div class="item-desc">
@@ -329,7 +344,7 @@
                             <div class="item1">
                                     <div class="item-img">
                                         <a href="#">
-                                            <img src="images/item1.jpg" alt="">
+                                            <img src="images/item5.jpg" alt="american eagle jeans">
                                         </a>
                                     </div>
                                     <div class="item-desc">
@@ -342,7 +357,7 @@
                             <div class="item1">
                                     <div class="item-img">
                                         <a href="#">
-                                            <img src="images/item1.jpg" alt="">
+                                            <img src="images/item6.jpg" alt="sweat shirt">
                                         </a>
                                     </div>
                                     <div class="item-desc">
@@ -355,7 +370,7 @@
                             <div class="item1">
                                     <div class="item-img">
                                         <a href="#">
-                                            <img src="images/item1.jpg" alt="">
+                                            <img src="images/item2.jpg" alt="glass and nerdy wear">
                                         </a>
                                     </div>
                                     <div class="item-desc">
@@ -365,23 +380,10 @@
                                         </ul>
                                     </div>
                             </div>
-                            <div class="item1">
+                            <div class="item1 last-item">
                                     <div class="item-img">
                                         <a href="#">
-                                            <img src="images/item1.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="item-desc">
-                                        <ul>
-                                            <li><a href = "#">PARIS JACKET</a></li>
-                                            <li><a href = "#">$89,99</a></li>
-                                        </ul>
-                                    </div>
-                            </div>
-                            <div class="item1">
-                                    <div class="item-img">
-                                        <a href="#">
-                                            <img src="images/item1.jpg" alt="">
+                                            <img src="images/item10.jpg" alt="jeans jacket">
                                         </a>
                                     </div>
                                     <div class="item-desc">
@@ -398,17 +400,18 @@
             </div>
 
             <div class="about-us">
-                <div class="about-us-img">
-                    <img src="images/about-us.jpg" alt="">
-                </div>
-                <div class="about-us-wrapper clearfix">
+                
+                <div class="about-us-wrapper">
+                        <div class="about-us-img">
+                            <img src="images/about-us.jpg" alt="">
+                        </div>
                     
                     <div class="story-behind">
                         <div class="story-behind-title">Story Behind</div>
-                        <div class="about-logo"><img src="images/about-logo.png" alt=""></div>
+                        <div class="about-logo"><img src="images/about-logo.png" alt="gaboo logo"></div>
                         <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat.
-                        Accumsan id imperdiet et, porttitor asem. 
-                        Vestibulum ac diam sit amet quavehisuscipit tortor eget felis.</p>
+                        Accumsan id imperdiet et, porttitor at sem. </p> 
+                        <p>Vestibulum ac diam sit amet quam vehisuscipit tortor eget felis.</p>
                         <button class="contact-us">Contact Us</button>
                     </div>
                 </div>
@@ -417,11 +420,13 @@
             <div class="footer">
                 <div class="footer-wrapper clearfix">
                     <div class="footer-col-1">
-                        <div class="footer-logo"><a href="#"><img src="images/footer-logo.png" alt=""></a></div>
+                        <div class="footer-logo"><a href="#"><img src="images/footer-logo.png" alt="story image"></a></div>
                         <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
                         <div class="created-by">Created by Graphberry,Belgrade,Serbia</div>
                         <div class="copyright">&copy; 2017 - <a href="#">Gabooo</a>.Inc </div>
                     </div>
+                    <hr class="hr1">
+
                     <div class="footer-col-2">
                         <ul>
                             <li>Links</li>
@@ -433,6 +438,7 @@
                             <li><a href="#">Terms and Conditions</a></li>
                         </ul>
                     </div>
+                    <hr class="hr2">
                     <div class="footer-col-3">
                         <ul>
                             <li>Shopping</li>
@@ -444,6 +450,8 @@
                             <li><a href="#">Collection</a></li>
                         </ul>
                     </div>
+                    
+                    <hr class="hr3 clearfix">
                     <div class="footer-col-4">
                         <div class="contact-us-title">Contact Us</div>  
                         <p>Get in Touch with us via mail phone. We are waiting for your call or message</p>
@@ -459,6 +467,6 @@
             </div>
         </div>
 
-    <script src="js/menu.js"></script>
+   <script src="js/menu.js"></script>
 </body>
 </html>
