@@ -68,7 +68,15 @@
                             <button>SHOP NOW</button>
                         </div>
                         <div class="header-main-image">
+                            <div class="header-img fade">
                             <img src="images/header-main-image.jpg" alt="fashion slider">
+                            </div>
+                            <div class="header-img fade">
+                                <img src="images/header-main-image2.jpg" alt="fashion slider">
+                            </div>
+                            <div class="header-img fade">
+                                <img src="images/header-main-image3.jpg" alt="fashion slider">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -78,21 +86,25 @@
                     <ul class="lang-curr">
                         <li>
                             <ul>
-                                <li><img src="images/lang.png" alt="english"><span>EN</span><i class="fa fa-caret-down"></i></li>
-                                <ul class="lang-curr-dropdown">
-                                    <li><a href="#"><img src="images/lang.png" alt="english"><span>EN</span><i class="fa fa-caret-down"></i></a></li>
-                                    <li><a href="#"><img src="images/lang.png" alt="english"><span>EN</span><i class="fa fa-caret-down"></i></a></li>
-                                </ul>
+                                <li class="lang-curr-drop"><img src="images/lang.png" alt="english"><span>EN</span><i class="fa fa-caret-down"></i></li>
+                                <li>
+                                    <ul class="lang-curr-dropdown">
+                                        <li><a href="#"><img src="images/lang.png" alt="english"><span>EN</span><i class="fa fa-caret-down"></i></a></li>
+                                        <li><a href="#"><img src="images/lang.png" alt="english"><span>EN</span><i class="fa fa-caret-down"></i></a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
 
                         <li>
                             <ul>
-                                <li><span>USD</span><i class="fa fa-caret-down"></i></li>
-                                <ul class="lang-curr-dropdown">
-                                    <li><a href="#"><span>USD</span><i class="fa fa-caret-down"></i></a></li>
-                                    <li><a href="#"><span>USD</span><i class="fa fa-caret-down"></i></a></li>
-                                </ul>
+                                <li class="lang-curr-drop"><span>USD</span><i class="fa fa-caret-down"></i></li>
+                                <li>
+                                    <ul class="lang-curr-dropdown">
+                                        <li><a href="#"><span>USD</span><i class="fa fa-caret-down"></i></a></li>
+                                        <li><a href="#"><span>USD</span><i class="fa fa-caret-down"></i></a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -402,9 +414,19 @@
             <div class="about-us">
                 
                 <div class="about-us-wrapper">
-                        <div class="about-us-img">
+                    <div class="about-us-slider-container">
+                        <div class="about-us-img fade">
                             <img src="images/about-us.jpg" alt="">
                         </div>
+
+                        <div class="about-us-img fade">
+                            <img src="images/about-us2.jpg" alt="">
+                        </div>
+
+                        <div class="about-us-img fade">
+                            <img src="images/about-us3.jpg" alt="">
+                        </div>
+                    </div>
                     
                     <div class="story-behind">
                         <div class="story-behind-title">Story Behind</div>
@@ -468,5 +490,7 @@
         </div>
 
    <script src="js/menu.js"></script>
+   <script src="js/header-carousel.js"></script>
+   <script src="js/carousel.js"></script>
 </body>
 </html>
